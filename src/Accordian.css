@@ -1,0 +1,19 @@
+.accordian-close {
+    display: inline-block;
+    border: 2px solid gray;
+    transform: rotate(-45deg);
+    width: 16px;
+    height:16px;
+    border-left: 0;
+    border-bottom: 0;
+
+}
+.accordian-open {
+    display: inline-block;
+    border: 2px solid gray;
+    transform: rotate(-45deg);
+    width: 16px;
+    height:16px;
+    border-top: 0;
+    border-right: 0;
+}

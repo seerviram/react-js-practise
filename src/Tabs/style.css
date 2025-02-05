@@ -1,0 +1,15 @@
+.tabsHeaders{
+ display: flex;
+ justify-content: space-around;
+ list-style-type: none;
+ border: 2px solid gray
+}
+.tabsHeaders li {
+    font-weight: 600;
+    padding: 10px;
+    border-right: 2px solid red;
+}
+
+.petConent {
+    text-align: center;
+}

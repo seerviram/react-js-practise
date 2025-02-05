@@ -1,0 +1,32 @@
+/* 
+.text {
+    margin: 20px;
+}
+
+table, td, th{
+    border: 1px solid gray;
+}
+table {
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+
+.body {
+    width: 600px;
+    height: 600px;
+    background-color: green;
+    margin: 0 auto;
+}
+
+tr {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+td{
+    padding: 10px
+    
+} */

@@ -1,0 +1,49 @@
+.messageContainer {
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+    overflow-y: scroll;
+    background-color: yellow;
+    padding: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* for centering */
+/* .boxes {
+    width: 100px;
+    height:100px;
+    background-color: green;
+    margin: 0 auto;
+}
+.boxcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+.outer {
+    position: relative; /* Needed for absolute positioning of the inner div */
+    height: 200px;
+    width: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+  }
+  
+  .inner {
+    position: absolute;
+    width:100px;
+    height: 100px;
+    top: 50%;           /* Move to 50% vertically */
+    left: 50%;          /* Move to 50% horizontally */
+    background-color: #4CAF50;
+    color: white;
+transform: translate(-50%, -50%);
+  }
+  

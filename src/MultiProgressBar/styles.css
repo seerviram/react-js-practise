@@ -1,0 +1,29 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .barcontainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .progress {
+    width: 100%;
+    background-color: gray;
+    margin: 20px;
+  }
+  div.green {
+    background-color: green;
+  }
+  div.gray {
+    background-color: gray;
+  }
+  
+  .outerContainer {
+    width: 100%;
+    background-color: gray;
+  }
+  .innerBar {
+    width: 0%;
+    background-color: green;
+  }
+  

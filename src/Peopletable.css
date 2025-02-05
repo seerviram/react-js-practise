@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid gray;
+    font-weight: 600;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid gray;
+}
+
+.container {
+    width: 500px;
+  min-height: 100px;
+    border: 2px solid gray;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
