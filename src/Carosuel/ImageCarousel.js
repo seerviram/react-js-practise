@@ -7,7 +7,7 @@ export default function ImageCarousel({ active, image }) {
             key={image.src}
             alt={image.alt}
             width="100%"
-            {...active && {src: image.src}}
+            {...(active && {src: image.src})}
             className= {active ? "show": "hide"}
             />
       </div>

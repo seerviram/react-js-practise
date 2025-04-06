@@ -43,7 +43,7 @@ const [inputState, setInputState] = React.useState({
     //   action="https://www.greatfrontend.com/api/questions/contact-form" method='post'
       >
         <label htmlFor="name">Name: </label>
-        <input type="text" name='name'id="name" onChange={inputHandler}/>
+        <input type="text" name='name'id="name" onChange={inputHandler} required/>
 
         <label htmlFor="email">Email: </label>
         <input type="text" name='email' id="email"  onChange={inputHandler}/>

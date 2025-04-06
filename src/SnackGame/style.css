@@ -1,0 +1,18 @@
+.greenSnack{
+    background-color:green;
+    height: 10px;
+    width:10px;
+}
+.gray{
+    background-color: "gray";
+    height: 10px;
+    width:10px;
+}
+.redfood{
+    background-color:red;
+    height: 10px;
+    width:10px;
+}
+#gameBoard{
+    border: 3px solid;
+}

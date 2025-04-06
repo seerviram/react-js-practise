@@ -1,0 +1,28 @@
+.movieHall {
+    display: flex;
+    flex-direction: column;
+}
+.rowContainer {
+    display: flex;
+    flex-direction: row;
+    gap:20px
+}
+.firstpart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondpart {
+    display: flex;
+}
+
+.seat {
+    width: 30px;
+    height:30px;
+    background-color: black;
+    border: 1px solid gray;
+    text-align: center;
+    font-weight: bold;
+    color: white
+}

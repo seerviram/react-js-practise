@@ -23,6 +23,36 @@ import MultiProgress from './MultiProgressBar/App';
 import Table from './TabularData/Table';
 import TabContainer from './ContextApi/TabContainer/Tab';
 import CustomModal from './Modal';
+import MyForm from './ForwardRef/Ref';
+import StopWatchResetResum from './StopWatchResetResum';
+import EnhancedComponent from './HighOrderComponent';
+import CustomUseState from './CustomUseState';
+import AccordionHtml from './Accordian/AccordianHTml';
+import FormHandling from './FormHandling';
+import NewProgrees from './MultiProgressBar/Progressbar';
+import Progress from './MultiProgressBar/Progressbar';
+import DataTable from './Paginated/UserDataTable';
+import Dice from './DiceRoller/Dice';
+import ModalByReact from './ModalReact/Modal';
+import Traffic from './NewTraffic/Traffic';
+import NestedCheckBox from './NestedCheckboxes/Checkbox';
+import GitHubUserFinder from "./GitHub";
+import SnakeGame from "./SnackGame/Snack.js"
+import FeatureFlag from './FeatureFlag/Feature.js';
+import AppBanner from './FeatureFlag/Feature.js';
+import Moviehall from './MovieHall/Moviehall.js';
+import EnhancedTicTacComponent from './UpdatedTicTac/EnhancedTicTac.js';
+import NokiaGame from './NokiaSnakeGame/NokiaGame.js';
+import InfiniteScroll from './InfiniteScroll.js';
+import AtlassianFile from './AtlassianFile.js';
+import OptimizedAtlassianFile from './OptimizedAtlassian.js';
+import FeatureFlagWithContext from './FeatureFlag/FeatureFlagWithContext.js';
+import DynamicTicTacToe from './DynamicSizeBoard./DynamicTicTac.js';
+import Stepper from './Stepper/Stepper.js';
+import IntersectionObserverFile from './IntersectionObserver.js';
+import InfiniteScrollWithVirtualization from './InfiniteScrollWithVirtualization.js';
+import TestList from './TestList.js';
+import OTP from './InputOTP/OTP.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -34,9 +64,10 @@ root.render(
  {/* <App2/> */}
  {/* <Fileexplore/> */}
    {/* <Progessbar/> */}
-   {/* <MultiProgress/> */}
+ {/* <Progress/> */}
+{/* <MultiProgress/> */}
    {/* <TabContainer/> */}
-<CustomModal/>
+{/* <CustomModal/> */}
    {/* <Table/> */}
    {/* <Trafic/> */}
    {/* <TicTac/> */}
@@ -45,6 +76,37 @@ root.render(
    {/* <Passwordgenerator/> */}
    {/* <ModelApp/> */}
    {/* <StarRating/> */}
+   {/* <MyForm/> */}
+   {/* <StopWatchResetResum/>
+   <EnhancedComponent name={'bholaram'} age={23}/> */}
+   {/* <CustomUseState/> */}
+  {/* <AccordionHtml/> */}
+{/* <NewProgrees/> */}
+   {/* <DataTable/> */}
+   {/* <Dice/> */}
+   {/* <ModalByReact/> */}
+   {/* <Traffic/> */}
+   {/* <NestedCheckBox/> */}
+   {/* <AppBanner/> */}
+   {/* <Moviehall/> */}
+  {/* <GitHubUserFinder/> */}
+  {/* <Fileexplore/> */}
+  {/* <SnakeGame/> */}
+  {/* <FormHandling/> */}
+{/* <EnhancedTicTacComponent/> */}
+{/* <NewProgrees/> */}
+      {/* <NokiaGame/> */}
+      {/* <InfiniteScroll/> */}
+      {/* <AtlassianFile/> */}
+      {/* <OptimizedAtlassianFile/> */}
+      {/* <FeatureFlagWithContext/> */}
+      {/* <DynamicTicTacToe size={4}/> */}
+      {/* <Stepper/> */}
+   {/* <IntersectionObserverFile/> */}
+   {/* <InfiniteScrollWithVirtualization/> */}
+   {/* <TestList/> */}
+
+   <OTP/>
   </React.StrictMode>
 );
 

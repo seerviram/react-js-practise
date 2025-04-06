@@ -31,12 +31,6 @@ function Progessbar() {
         const progressBar = document.getElementById("progressBar");
         progressBar.style.width = "100%";
       }
-
-    return (<>
-     <div class="progress-container">
-        <div class="progress-bar" id="progressBar"></div>
-      </div>
-      <button onClick={startProgress}>Start Progress</button></>)
 }
 
 export default Progessbar

@@ -44,22 +44,48 @@ const comments = [
 
 ]
 
-const NestedComment = ({comment, level})=> {
-    const [likeCount, setLikeCount] = React.useState(0);
-     const isSubComment = comment.replies && comment.replies.length>0
-    return !isSubComment ? <div> 
-    <span>{comment.username.padStart(comment.username.length + level, "-")} </span> <span>{comment.comment}</span> <button onClick={()=> setLikeCount(likeCount+1)}>Likes{likeCount}</button></div> : 
-    <>
-    <div>
-    <span>{comment.username.padStart(comment.username.length + level, "-")} </span> <span>{comment.comment}</span> <button onClick={()=> setLikeCount(likeCount+1)}>Likes{likeCount}</button>
-    </div>
-    {comment.replies.map((comment, index)=><><NestedComment comment={comment} level={level+1} key={comment.username+""+level+index}/></>)}
-    </>
+// const NestedComment = ({comment, level})=> {
+//     const [likeCount, setLikeCount] = React.useState(0);
+//      const isSubComment = comment.replies && comment.replies.length>0
+//     return !isSubComment ? <div> 
+//     <span>{comment.username.padStart(comment.username.length + level, "-")} </span> <span>{comment.comment}</span> <button onClick={()=> setLikeCount(likeCount+1)}>Likes{likeCount}</button></div> : 
+//     <>
+//     <div>
+//     <span>{comment.username.padStart(comment.username.length + level, "-")} </span> <span>{comment.comment}</span> <button onClick={()=> setLikeCount(likeCount+1)}>Likes{likeCount}</button>
+//     </div>
+//     {comment.replies.map((comment, index)=><><NestedComment comment={comment} level={level+1} key={comment.username+""+level+index}/></>)}
+//     </>
+// }
+// function Comment() {
+//   return (
+//     <div>
+//       {comments.map((comment, index)=> <NestedComment comment={comment} level={1} key={comment.username+""+index}/>)}
+//     </div>
+//   )
+// }
+
+
+const NestedComment = ({comments})=> {
+    const [likeCount, setLikeCount] = React.useState({});
+    return (
+        <div class="comments" style={{padding:"10px"}}>
+            {
+                comments.map((comment, index)=>{
+                return <>
+                <div>{comment.comment}</div>
+                { comment.replies && <NestedComment comments={ comment.replies }/>}
+                </>
+                })
+            
+            }
+
+        </div>
+    )
 }
 function Comment() {
   return (
     <div>
-      {comments.map((comment, index)=> <NestedComment comment={comment} level={1} key={comment.username+""+index}/>)}
+      <NestedComment comments = {comments}/>
     </div>
   )
 }

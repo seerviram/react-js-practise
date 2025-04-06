@@ -1,0 +1,13 @@
+.containerG{
+    /* display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 20px */
+}
+.canvas {
+    width: 500px;
+    height:500px;
+    border: 1px solid black;
+}

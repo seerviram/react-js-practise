@@ -1,0 +1,19 @@
+
+
+.diceContainer{
+    width: 100px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    /* background-color: aqua; */
+}
+
+.diceEle{
+   
+    /* background-color: yellow; */
+}
+.active {
+    border-radius: 50%;
+    background-color: green;
+}

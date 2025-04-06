@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  table {
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  
+  td,
+  th {
+    padding: 4px;
+    border-bottom: 1px solid #ddd;
+    text-align: start;
+  }
+  
+  
+  th {
+    vertical-align: top;
+  }
+  .pageContainer{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .pagenumber{
+    width:30px;
+    height: 30px;
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 5px;
+    text-align: center;
+
+  }
+  .active{
+    background-color: green;
+  }
+  
