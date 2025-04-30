@@ -64,14 +64,16 @@ const styles = {
     backgroundColor: '#f0f0f0'
   },
   overlay: {
-    position: 'fixed',
+    position: 'absolute',
     top: 0,
     left: 0,
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    zIndex: 1000
+    zIndex: 1000,
+    height: '100%',
+    width:"100%"
   },
   modal: {
     backgroundColor: 'white',

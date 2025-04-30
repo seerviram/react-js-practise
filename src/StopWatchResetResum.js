@@ -22,13 +22,10 @@ function StopWatchResetResum() {
         if(isRunning){
         intervalRef.current = setInterval(()=> {
                     setTime((time)=> time+1)
-        }, 10)
+        }, 500)
         } else {
             clearInterval(intervalRef.current)
         }
-        // return ()=> {
-        //     clearInterval(intervalRef.current)
-        // }
 
     },[isRunning])
   return (

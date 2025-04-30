@@ -53,6 +53,7 @@ import IntersectionObserverFile from './IntersectionObserver.js';
 import InfiniteScrollWithVirtualization from './InfiniteScrollWithVirtualization.js';
 import TestList from './TestList.js';
 import OTP from './InputOTP/OTP.js';
+import AccordianWithComponent from './Accordian/Accordian.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -77,8 +78,8 @@ root.render(
    {/* <ModelApp/> */}
    {/* <StarRating/> */}
    {/* <MyForm/> */}
-   {/* <StopWatchResetResum/>
-   <EnhancedComponent name={'bholaram'} age={23}/> */}
+  {/* <StopWatchResetResum/> */}
+   {/* <EnhancedComponent name={'bholaram'} age={23}/> */} 
    {/* <CustomUseState/> */}
   {/* <AccordionHtml/> */}
 {/* <NewProgrees/> */}
@@ -101,12 +102,14 @@ root.render(
       {/* <OptimizedAtlassianFile/> */}
       {/* <FeatureFlagWithContext/> */}
       {/* <DynamicTicTacToe size={4}/> */}
-      {/* <Stepper/> */}
+      <Stepper/>
    {/* <IntersectionObserverFile/> */}
    {/* <InfiniteScrollWithVirtualization/> */}
+  {/* <AccordianWithComponent/> */}
    {/* <TestList/> */}
 
-   <OTP/>
+
+   {/* <OTP/> */}
   </React.StrictMode>
 );
 

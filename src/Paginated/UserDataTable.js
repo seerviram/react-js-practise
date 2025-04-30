@@ -16,7 +16,7 @@ export default function DataTable() {
 
   const start = pageNumber*userPerPage;
   const end = pageNumber*userPerPage + userPerPage
-  const filteredUsers = users.slice(start,end )
+  const filteredUsers = users.slice(start,end)
 
   return (
     <div>

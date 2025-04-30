@@ -33,7 +33,7 @@ function InfiniteScrollWithVirtualization() {
                 setHasMore(false)
             }
         })
-    }
+        }
     }
 
 

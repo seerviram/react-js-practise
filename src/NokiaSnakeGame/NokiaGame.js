@@ -50,7 +50,6 @@ function NokiaGame() {
         if(DIRECTIONS[e.key]){
         setDirection(DIRECTIONS[e.key])
         }
-
     }
 
     useEffect(()=> {
